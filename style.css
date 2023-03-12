@@ -4,40 +4,47 @@ html { box-sizing: border-box; }
 
 
 body {
-    background-color: #b2bec3;
+    background-color:  #b2bec3;
+ font-family: 'Nunito', sans-serif;   
 }
 
-h1 {
+
+.nadpisEliska {
+margin: auto;
+padding: 0;
 color: #d63031;
-font-weight: 36px;
-font-weight: bold;
+font-size: 36px;
+font-weight: bold;   
 }
 
 p {
     font-size: 18px;
 }
 
-.nadpisEliska {
-    margin: 0 0 30px 0;
-}
 
 .box {
     background-color: white;
     width: 550px;
-    margin-top: 150px;
     padding: 30px 30px;
-}
+    border-radius: 10px;
+    margin: 150px auto;
+    position: relative;
+  }  
 
 .fotoEliska {
-    float: right;
-    border: white;
-    border-width: 3px;
+    border: 10px white; 
     border-radius: 50%;
     width: 150px;
+    position: absolute;
+    left: 475px ;
+    bottom: 370px;
+
 }
 
 .textPracuje {
-    margin: 30px 0 0 0;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
 }
 
 .testI {
@@ -46,7 +53,25 @@ p {
 
 .buttonTwitter, .buttonFB {
     text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
 }
+
+.buttonTwitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.buttonFB {
+    background-color: #3b5998;
+}
+
 
 /*
 BARVY:
